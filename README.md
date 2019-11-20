@@ -1,0 +1,1 @@
+Eredmények a bírálók számára.
