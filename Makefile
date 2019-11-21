@@ -3,7 +3,7 @@ LANG=??
 
 ORIG=_ORIG
 
-all: backup
+all: full
 
 # -----
 
@@ -13,6 +13,11 @@ full: process_conll convert2json jands
 full_diff: process_conll_diff convert2json_diff jands_diff
 
 full_new_orig: process_conll_new_orig convert2json_new_orig jands_new_orig
+
+# -----
+
+result_pVCC_diff:
+	for i in result/*pVCC ; do diff $$i result_backup/$$(basename $$i) ; done
 
 # -----
 
@@ -82,14 +87,4 @@ process_conll_tkdiff:
 process_conll_new_orig:
 	rm -rf mazsdb$(ORIG)
 	cp -rp mazsdb mazsdb$(ORIG)
-
-# -----
-
-backup:
-	@echo
-	@echo "Backup..."
-	@echo
-	tar -czvf halo-impl-langs.tar.gz INFO Makefile *.py *.sh publ
-	scpc halo-impl-langs.tar.gz
-	rm -f halo-impl-langs.tar.gz
 
