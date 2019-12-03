@@ -1,0 +1,913 @@
+#1
+<-  1  26.00  ["Gen", null]  ^
+<-  2  13.00  ["obl=ci", null]  ^
+<-  10  2.60  ["obj", null]  ??
+<-  17  1.53  ["xcomp", null]  = !stay
+<-  26  1.00  ["nsubj", null]  = !stay
+x
+x
+[]	26	0
+ Processing.
+ A stay found, we follow.
+["nsubj", null]	26	1
+ A stay found, we follow.
+["nsubj", null, "xcomp", null]	17	2
+ No stay (ratio=3.40 > 1.7), we stop.
+ No appropriate jump (no filler, 1.53 < 4), we stop.
+["nsubj", null, "xcomp", null]	17	2	pVCC
+
+#2
+<-  1  26.00  ["Gen", null, "nsubj", null]  ^
+<-  1  26.00  ["nsubj", "doom"]  ^
+<-  1  26.00  ["nsubj", "jàngoro"]  ^
+<-  1  26.00  ["nsubj", "jeqiku"]  ^
+<-  1  26.00  ["nsubj", "sibbiru"]  ^
+<-  1  26.00  ["nsubj", "sunna"]  ^
+<-  1  26.00  ["nsubj", "yàlla"]  ^
+<-  2  13.00  ["nsubj", null, "obl=ci", null]  ^
+<-  10  2.60  ["nsubj", null, "obj", null]  ??
+<-  17  1.53  ["nsubj", null, "xcomp", null]  = !stay
+x
+->  26  1.00  []  =
+x
+["nsubj", null]	26	1
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "xcomp", null]	17	2
+ No stay (ratio=3.40 > 1.7), we stop.
+ No appropriate jump (no filler, 1.53 < 4), we stop.
+["nsubj", null, "xcomp", null]	17	2	pVCC
+
+#3
+<-  1  17.00  ["Gen", null, "xcomp", null]  ^
+<-  1  17.00  ["xcomp", "ami"]  ^
+<-  1  17.00  ["xcomp", "ayib"]  ^
+<-  1  17.00  ["xcomp", "dindi"]  ^
+<-  1  17.00  ["xcomp", "fàtte"]  ^
+<-  1  17.00  ["xcomp", "fitnaal"]  ^
+<-  1  17.00  ["xcomp", "indaale"]  ^
+<-  1  17.00  ["xcomp", "jàpp"]  ^
+<-  1  17.00  ["xcomp", "jéggi"]  ^
+<-  1  17.00  ["xcomp", "sonal"]  ^
+<-  1  17.00  ["xcomp", "yéeg"]  ^
+<-  2  8.50  ["xcomp", "lekk"]  ^
+<-  2  8.50  ["xcomp", "tàqale"]  ^
+<-  3  5.67  ["xcomp", "def"]  ^
+<-  5  3.40  ["obj", null, "xcomp", null]  ??
+<-  17  1.00  ["nsubj", null, "xcomp", null]  = !stay
+x
+->  26  1.53  []  =
+x
+["xcomp", null]	17	1
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "xcomp", null]	17	2
+ No stay (ratio=3.40 > 1.7), we stop.
+ No appropriate jump (no filler, 1.53 < 4), we stop.
+["nsubj", null, "xcomp", null]	17	2	pVCC
+
+#4
+<-  1  10.00  ["obj", "estati"]  ^
+<-  1  10.00  ["obj", "noteel"]  ^
+<-  1  10.00  ["obj", null, "obl=ci", null]  ^
+<-  5  2.00  ["obj", null, "xcomp", null]  ??
+<-  10  1.00  ["nsubj", null, "obj", null]  = !stay
+x
+->  26  2.60  []  ??
+x
+["obj", null]	10	1
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obj", null]	10	2
+ No stay (ratio=2.00 > 1.7), we stop.
+ No appropriate jump (no filler, 2.60 < 4), we stop.
+["nsubj", null, "obj", null]	10	2	pVCC
+
+#5
+<-  1  2.00  ["obj", null, "obl=ci", null]  ??
+<-  1  2.00  ["obl=ci", "ndawal"]  ??
+<-  1  2.00  ["obl=ci", "tabaski"]  ??
+<-  2  1.00  ["nsubj", null, "obl=ci", null]  = !stay
+x
+->  26  13.00  []  ^ !jump
+x
+["obl=ci", null]	2	1
+ Too rare (<3), skip.
+
+#6
+<-  1  1.00  ["Gen", "bis"]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", null]  = !stay
+<-  1  1.00  ["Gen", null, "xcomp", null]  = !stay
+x
+->  26  26.00  []  ^ !jump
+x
+["Gen", null]	1	1
+ Too rare (<3), skip.
+
+#7
+<-  1  17.00  ["Gen", null, "nsubj", null, "xcomp", null]  ^
+<-  1  17.00  ["nsubj", "doom", "xcomp", null]  ^
+<-  1  17.00  ["nsubj", "jàngoro", "xcomp", null]  ^
+<-  1  17.00  ["nsubj", "jeqiku", "xcomp", null]  ^
+<-  1  17.00  ["nsubj", "sibbiru", "xcomp", null]  ^
+<-  1  17.00  ["nsubj", "sunna", "xcomp", null]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "ami"]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "ayib"]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "dindi"]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "fàtte"]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "fitnaal"]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "indaale"]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "jàpp"]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "jéggi"]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "sonal"]  ^
+<-  1  17.00  ["nsubj", null, "xcomp", "yéeg"]  ^
+<-  2  8.50  ["nsubj", null, "xcomp", "lekk"]  ^
+<-  2  8.50  ["nsubj", null, "xcomp", "tàqale"]  ^
+<-  3  5.67  ["nsubj", null, "xcomp", "def"]  ^
+<-  5  3.40  ["nsubj", null, "obj", null, "xcomp", null]  ??
+x
+->  17  1.00  ["xcomp", null]  =
+->  26  1.53  ["nsubj", null]  =
+x
+["nsubj", null, "xcomp", null]	17	2
+ Processing.
+ No stay (ratio=3.40 > 1.7), we stop.
+ No appropriate jump (no filler, 1.53 < 4), we stop.
+["nsubj", null, "xcomp", null]	17	2	pVCC
+
+#8
+<-  1  10.00  ["nsubj", "yàlla", "obj", null]  ^
+<-  1  10.00  ["nsubj", null, "obj", "estati"]  ^
+<-  1  10.00  ["nsubj", null, "obj", "noteel"]  ^
+<-  1  10.00  ["nsubj", null, "obj", null, "obl=ci", null]  ^
+<-  5  2.00  ["nsubj", null, "obj", null, "xcomp", null]  ??
+x
+->  10  1.00  ["obj", null]  =
+->  26  2.60  ["nsubj", null]  ??
+x
+["nsubj", null, "obj", null]	10	2
+ Processing.
+ No stay (ratio=2.00 > 1.7), we stop.
+ No appropriate jump (no filler, 2.60 < 4), we stop.
+["nsubj", null, "obj", null]	10	2	pVCC
+
+#9
+<-  1  5.00  ["obj", null, "xcomp", "fitnaal"]  ^
+<-  1  5.00  ["obj", null, "xcomp", "sonal"]  ^
+<-  3  1.67  ["obj", null, "xcomp", "def"]  = !stay
+<-  5  1.00  ["nsubj", null, "obj", null, "xcomp", null]  = !stay
+x
+->  10  2.00  ["obj", null]  ??
+->  17  3.40  ["xcomp", null]  ??
+x
+["obj", null, "xcomp", null]	5	2
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obj", null, "xcomp", null]	5	3
+ A stay found, we follow.
+["nsubj", null, "obj", null, "xcomp", "def"]	3	4
+ No stay (ratio=0.00 > 1.7), we stop.
+ No appropriate jump (omitting last filler, 1.67 < 100000000), we stop.
+ Concrete sentence skeleton.
+
+#10
+<-  3  1.00  ["nsubj", null, "xcomp", "def"]  = !stay
+<-  3  1.00  ["obj", null, "xcomp", "def"]  = !stay
+x
+->  17  5.67  ["xcomp", null]  ^ !jump
+x
+["xcomp", "def"]	3	2
+ Processing.
+ A stay found, we follow.
+["obj", null, "xcomp", "def"]	3	3
+ A stay found, we follow.
+["nsubj", null, "obj", null, "xcomp", "def"]	3	4
+ No stay (ratio=0.00 > 1.7), we stop.
+ No appropriate jump (omitting last filler, 1.67 < 100000000), we stop.
+ Concrete sentence skeleton.
+
+#11
+<-  1  2.00  ["nsubj", null, "obj", null, "obl=ci", null]  ??
+<-  1  2.00  ["nsubj", null, "obl=ci", "ndawal"]  ??
+<-  1  2.00  ["nsubj", null, "obl=ci", "tabaski"]  ??
+x
+->  2  1.00  ["obl=ci", null]  =
+->  26  13.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", null]	2	2
+ Too rare (<3), skip.
+
+#12
+<-  1  2.00  ["Gen", null, "xcomp", "lekk"]  ??
+<-  2  1.00  ["nsubj", null, "xcomp", "lekk"]  = !stay
+x
+->  17  8.50  ["xcomp", null]  ^ !jump
+x
+["xcomp", "lekk"]	2	2
+ Too rare (<3), skip.
+
+#13
+<-  2  1.00  ["nsubj", null, "xcomp", "tàqale"]  = !stay
+x
+->  17  8.50  ["xcomp", null]  ^ !jump
+x
+["xcomp", "tàqale"]	2	2
+ Too rare (<3), skip.
+
+#14
+<-  1  1.00  ["Gen", "bis", "nsubj", null]  = !stay
+<-  1  1.00  ["Gen", "bis", "xcomp", null]  = !stay
+x
+->  1  1.00  ["Gen", null]  =
+x
+["Gen", "bis"]	1	2
+ Too rare (<3), skip.
+
+#15
+<-  1  1.00  ["Gen", "bis", "nsubj", null]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", "sunna"]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", null, "xcomp", null]  = !stay
+x
+->  1  1.00  ["Gen", null]  =
+->  26  26.00  ["nsubj", null]  ^ !jump
+x
+["Gen", null, "nsubj", null]	1	2
+ Too rare (<3), skip.
+
+#16
+<-  1  1.00  ["Gen", "bis", "xcomp", null]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", null, "xcomp", null]  = !stay
+<-  1  1.00  ["Gen", null, "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", null]  =
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["Gen", null, "xcomp", null]	1	2
+ Too rare (<3), skip.
+
+#17
+<-  1  1.00  ["nsubj", "doom", "xcomp", null]  = !stay
+x
+->  26  26.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "doom"]	1	2
+ Too rare (<3), skip.
+
+#18
+<-  1  1.00  ["nsubj", "jàngoro", "xcomp", null]  = !stay
+x
+->  26  26.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "jàngoro"]	1	2
+ Too rare (<3), skip.
+
+#19
+<-  1  1.00  ["nsubj", "jeqiku", "xcomp", null]  = !stay
+x
+->  26  26.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "jeqiku"]	1	2
+ Too rare (<3), skip.
+
+#20
+<-  1  1.00  ["nsubj", "sibbiru", "xcomp", null]  = !stay
+x
+->  26  26.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "sibbiru"]	1	2
+ Too rare (<3), skip.
+
+#21
+<-  1  1.00  ["Gen", null, "nsubj", "sunna"]  = !stay
+<-  1  1.00  ["nsubj", "sunna", "xcomp", null]  = !stay
+x
+->  26  26.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "sunna"]	1	2
+ Too rare (<3), skip.
+
+#22
+<-  1  1.00  ["nsubj", "yàlla", "obj", null]  = !stay
+x
+->  26  26.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "yàlla"]	1	2
+ Too rare (<3), skip.
+
+#23
+<-  1  1.00  ["nsubj", null, "obj", "estati"]  = !stay
+x
+->  10  10.00  ["obj", null]  ^ !jump
+x
+["obj", "estati"]	1	2
+ Too rare (<3), skip.
+
+#24
+<-  1  1.00  ["nsubj", null, "obj", "noteel"]  = !stay
+x
+->  10  10.00  ["obj", null]  ^ !jump
+x
+["obj", "noteel"]	1	2
+ Too rare (<3), skip.
+
+#25
+<-  1  1.00  ["nsubj", null, "obj", null, "obl=ci", null]  = !stay
+<-  1  1.00  ["obj", null, "obl=ci", "ndawal"]  = !stay
+x
+->  2  2.00  ["obl=ci", null]  ??
+->  10  10.00  ["obj", null]  ^ !jump
+x
+["obj", null, "obl=ci", null]	1	2
+ Too rare (<3), skip.
+
+#26
+<-  1  1.00  ["nsubj", null, "obl=ci", "ndawal"]  = !stay
+<-  1  1.00  ["obj", null, "obl=ci", "ndawal"]  = !stay
+x
+->  2  2.00  ["obl=ci", null]  ??
+x
+["obl=ci", "ndawal"]	1	2
+ Too rare (<3), skip.
+
+#27
+<-  1  1.00  ["nsubj", null, "obl=ci", "tabaski"]  = !stay
+x
+->  2  2.00  ["obl=ci", null]  ??
+x
+["obl=ci", "tabaski"]	1	2
+ Too rare (<3), skip.
+
+#28
+<-  1  1.00  ["nsubj", null, "xcomp", "ami"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "ami"]	1	2
+ Too rare (<3), skip.
+
+#29
+<-  1  1.00  ["nsubj", null, "xcomp", "ayib"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "ayib"]	1	2
+ Too rare (<3), skip.
+
+#30
+<-  1  1.00  ["nsubj", null, "xcomp", "dindi"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "dindi"]	1	2
+ Too rare (<3), skip.
+
+#31
+<-  1  1.00  ["nsubj", null, "xcomp", "fàtte"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "fàtte"]	1	2
+ Too rare (<3), skip.
+
+#32
+<-  1  1.00  ["nsubj", null, "xcomp", "fitnaal"]  = !stay
+<-  1  1.00  ["obj", null, "xcomp", "fitnaal"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "fitnaal"]	1	2
+ Too rare (<3), skip.
+
+#33
+<-  1  1.00  ["nsubj", null, "xcomp", "indaale"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "indaale"]	1	2
+ Too rare (<3), skip.
+
+#34
+<-  1  1.00  ["nsubj", null, "xcomp", "jàpp"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "jàpp"]	1	2
+ Too rare (<3), skip.
+
+#35
+<-  1  1.00  ["nsubj", null, "xcomp", "jéggi"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "jéggi"]	1	2
+ Too rare (<3), skip.
+
+#36
+<-  1  1.00  ["nsubj", null, "xcomp", "sonal"]  = !stay
+<-  1  1.00  ["obj", null, "xcomp", "sonal"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "sonal"]	1	2
+ Too rare (<3), skip.
+
+#37
+<-  1  1.00  ["nsubj", null, "xcomp", "yéeg"]  = !stay
+x
+->  17  17.00  ["xcomp", null]  ^ !jump
+x
+["xcomp", "yéeg"]	1	2
+ Too rare (<3), skip.
+
+#38
+<-  1  5.00  ["nsubj", null, "obj", null, "xcomp", "fitnaal"]  ^
+<-  1  5.00  ["nsubj", null, "obj", null, "xcomp", "sonal"]  ^
+<-  3  1.67  ["nsubj", null, "obj", null, "xcomp", "def"]  = !stay
+x
+->  5  1.00  ["obj", null, "xcomp", null]  =
+->  10  2.00  ["nsubj", null, "obj", null]  ??
+->  17  3.40  ["nsubj", null, "xcomp", null]  ??
+x
+["nsubj", null, "obj", null, "xcomp", null]	5	3
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obj", null, "xcomp", "def"]	3	4
+ No stay (ratio=0.00 > 1.7), we stop.
+ No appropriate jump (omitting last filler, 1.67 < 100000000), we stop.
+ Concrete sentence skeleton.
+
+#39
+<-  3  1.00  ["nsubj", null, "obj", null, "xcomp", "def"]  = !stay
+x
+->  3  1.00  ["xcomp", "def"]  =
+->  17  5.67  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "def"]	3	3
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obj", null, "xcomp", "def"]	3	4
+ No stay (ratio=0.00 > 1.7), we stop.
+ No appropriate jump (omitting last filler, 1.67 < 100000000), we stop.
+ Concrete sentence skeleton.
+
+#40
+<-  3  1.00  ["nsubj", null, "obj", null, "xcomp", "def"]  = !stay
+x
+->  3  1.00  ["xcomp", "def"]  =
+->  5  1.67  ["obj", null, "xcomp", null]  =
+x
+["obj", null, "xcomp", "def"]	3	3
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obj", null, "xcomp", "def"]	3	4
+ No stay (ratio=0.00 > 1.7), we stop.
+ No appropriate jump (omitting last filler, 1.67 < 100000000), we stop.
+ Concrete sentence skeleton.
+
+#41
+<-  1  2.00  ["Gen", null, "nsubj", null, "xcomp", "lekk"]  ??
+<-  1  2.00  ["nsubj", "sunna", "xcomp", "lekk"]  ??
+x
+->  2  1.00  ["xcomp", "lekk"]  =
+->  17  8.50  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "lekk"]	2	3
+ Too rare (<3), skip.
+
+#42
+x
+->  2  1.00  ["xcomp", "tàqale"]  =
+->  17  8.50  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "tàqale"]	2	3
+ No out-edge, skip.
+
+#43
+<-  1  1.00  ["Gen", "bis", "nsubj", "sunna"]  = !stay
+<-  1  1.00  ["Gen", "bis", "nsubj", null, "xcomp", null]  = !stay
+x
+->  1  1.00  ["Gen", "bis"]  =
+->  1  1.00  ["Gen", null, "nsubj", null]  =
+x
+["Gen", "bis", "nsubj", null]	1	3
+ Too rare (<3), skip.
+
+#44
+<-  1  1.00  ["Gen", "bis", "nsubj", null, "xcomp", null]  = !stay
+<-  1  1.00  ["Gen", "bis", "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", "bis"]  =
+->  1  1.00  ["Gen", null, "xcomp", null]  =
+x
+["Gen", "bis", "xcomp", null]	1	3
+ Too rare (<3), skip.
+
+#45
+<-  1  1.00  ["Gen", "bis", "nsubj", "sunna"]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", "sunna", "xcomp", null]  = !stay
+x
+->  1  1.00  ["Gen", null, "nsubj", null]  =
+->  1  1.00  ["nsubj", "sunna"]  =
+x
+["Gen", null, "nsubj", "sunna"]	1	3
+ Too rare (<3), skip.
+
+#46
+<-  1  1.00  ["Gen", "bis", "nsubj", null, "xcomp", null]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", "sunna", "xcomp", null]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", null, "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", null, "nsubj", null]  =
+->  1  1.00  ["Gen", null, "xcomp", null]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["Gen", null, "nsubj", null, "xcomp", null]	1	3
+ Too rare (<3), skip.
+
+#47
+<-  1  1.00  ["Gen", "bis", "xcomp", "lekk"]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", null, "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", null, "xcomp", null]  =
+->  2  2.00  ["xcomp", "lekk"]  ??
+x
+["Gen", null, "xcomp", "lekk"]	1	3
+ Too rare (<3), skip.
+
+#48
+<-  1  1.00  ["nsubj", "doom", "xcomp", "ayib"]  = !stay
+x
+->  1  1.00  ["nsubj", "doom"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", "doom", "xcomp", null]	1	3
+ Too rare (<3), skip.
+
+#49
+<-  1  1.00  ["nsubj", "jàngoro", "xcomp", "yéeg"]  = !stay
+x
+->  1  1.00  ["nsubj", "jàngoro"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", "jàngoro", "xcomp", null]	1	3
+ Too rare (<3), skip.
+
+#50
+<-  1  1.00  ["nsubj", "jeqiku", "xcomp", "ami"]  = !stay
+x
+->  1  1.00  ["nsubj", "jeqiku"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", "jeqiku", "xcomp", null]	1	3
+ Too rare (<3), skip.
+
+#51
+<-  1  1.00  ["nsubj", "sibbiru", "xcomp", "jéggi"]  = !stay
+x
+->  1  1.00  ["nsubj", "sibbiru"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", "sibbiru", "xcomp", null]	1	3
+ Too rare (<3), skip.
+
+#52
+<-  1  1.00  ["Gen", null, "nsubj", "sunna", "xcomp", null]  = !stay
+<-  1  1.00  ["nsubj", "sunna", "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["nsubj", "sunna"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", "sunna", "xcomp", null]	1	3
+ Too rare (<3), skip.
+
+#53
+x
+->  1  1.00  ["nsubj", "yàlla"]  =
+->  10  10.00  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", "yàlla", "obj", null]	1	3
+ No out-edge, skip.
+
+#54
+x
+->  1  1.00  ["obj", "estati"]  =
+->  10  10.00  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", null, "obj", "estati"]	1	3
+ No out-edge, skip.
+
+#55
+x
+->  1  1.00  ["obj", "noteel"]  =
+->  10  10.00  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", null, "obj", "noteel"]	1	3
+ No out-edge, skip.
+
+#56
+<-  1  1.00  ["nsubj", null, "obj", null, "obl=ci", "ndawal"]  = !stay
+x
+->  1  1.00  ["obj", null, "obl=ci", null]  =
+->  2  2.00  ["nsubj", null, "obl=ci", null]  ??
+->  10  10.00  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", null, "obj", null, "obl=ci", null]	1	3
+ Too rare (<3), skip.
+
+#57
+<-  1  1.00  ["nsubj", null, "obj", null, "obl=ci", "ndawal"]  = !stay
+x
+->  1  1.00  ["obl=ci", "ndawal"]  =
+->  2  2.00  ["nsubj", null, "obl=ci", null]  ??
+x
+["nsubj", null, "obl=ci", "ndawal"]	1	3
+ Too rare (<3), skip.
+
+#58
+x
+->  1  1.00  ["obl=ci", "tabaski"]  =
+->  2  2.00  ["nsubj", null, "obl=ci", null]  ??
+x
+["nsubj", null, "obl=ci", "tabaski"]	1	3
+ No out-edge, skip.
+
+#59
+<-  1  1.00  ["nsubj", "jeqiku", "xcomp", "ami"]  = !stay
+x
+->  1  1.00  ["xcomp", "ami"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "ami"]	1	3
+ Too rare (<3), skip.
+
+#60
+<-  1  1.00  ["nsubj", "doom", "xcomp", "ayib"]  = !stay
+x
+->  1  1.00  ["xcomp", "ayib"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "ayib"]	1	3
+ Too rare (<3), skip.
+
+#61
+x
+->  1  1.00  ["xcomp", "dindi"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "dindi"]	1	3
+ No out-edge, skip.
+
+#62
+x
+->  1  1.00  ["xcomp", "fàtte"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "fàtte"]	1	3
+ No out-edge, skip.
+
+#63
+<-  1  1.00  ["nsubj", null, "obj", null, "xcomp", "fitnaal"]  = !stay
+x
+->  1  1.00  ["xcomp", "fitnaal"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "fitnaal"]	1	3
+ Too rare (<3), skip.
+
+#64
+x
+->  1  1.00  ["xcomp", "indaale"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "indaale"]	1	3
+ No out-edge, skip.
+
+#65
+x
+->  1  1.00  ["xcomp", "jàpp"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "jàpp"]	1	3
+ No out-edge, skip.
+
+#66
+<-  1  1.00  ["nsubj", "sibbiru", "xcomp", "jéggi"]  = !stay
+x
+->  1  1.00  ["xcomp", "jéggi"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "jéggi"]	1	3
+ Too rare (<3), skip.
+
+#67
+<-  1  1.00  ["nsubj", null, "obj", null, "xcomp", "sonal"]  = !stay
+x
+->  1  1.00  ["xcomp", "sonal"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "sonal"]	1	3
+ Too rare (<3), skip.
+
+#68
+<-  1  1.00  ["nsubj", "jàngoro", "xcomp", "yéeg"]  = !stay
+x
+->  1  1.00  ["xcomp", "yéeg"]  =
+->  17  17.00  ["nsubj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "xcomp", "yéeg"]	1	3
+ Too rare (<3), skip.
+
+#69
+<-  1  1.00  ["nsubj", null, "obj", null, "obl=ci", "ndawal"]  = !stay
+x
+->  1  1.00  ["obj", null, "obl=ci", null]  =
+->  1  1.00  ["obl=ci", "ndawal"]  =
+x
+["obj", null, "obl=ci", "ndawal"]	1	3
+ Too rare (<3), skip.
+
+#70
+<-  1  1.00  ["nsubj", null, "obj", null, "xcomp", "fitnaal"]  = !stay
+x
+->  1  1.00  ["xcomp", "fitnaal"]  =
+->  5  5.00  ["obj", null, "xcomp", null]  ^ !jump
+x
+["obj", null, "xcomp", "fitnaal"]	1	3
+ Too rare (<3), skip.
+
+#71
+<-  1  1.00  ["nsubj", null, "obj", null, "xcomp", "sonal"]  = !stay
+x
+->  1  1.00  ["xcomp", "sonal"]  =
+->  5  5.00  ["obj", null, "xcomp", null]  ^ !jump
+x
+["obj", null, "xcomp", "sonal"]	1	3
+ Too rare (<3), skip.
+
+#72
+x
+->  3  1.00  ["nsubj", null, "xcomp", "def"]  =
+->  3  1.00  ["obj", null, "xcomp", "def"]  =
+->  5  1.67  ["nsubj", null, "obj", null, "xcomp", null]  =
+x
+["nsubj", null, "obj", null, "xcomp", "def"]	3	4
+ No out-edge, skip.
+
+#73
+<-  1  1.00  ["Gen", "bis", "nsubj", "sunna", "xcomp", null]  = !stay
+x
+->  1  1.00  ["Gen", "bis", "nsubj", null]  =
+->  1  1.00  ["Gen", null, "nsubj", "sunna"]  =
+x
+["Gen", "bis", "nsubj", "sunna"]	1	4
+ Too rare (<3), skip.
+
+#74
+<-  1  1.00  ["Gen", "bis", "nsubj", "sunna", "xcomp", null]  = !stay
+<-  1  1.00  ["Gen", "bis", "nsubj", null, "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", "bis", "nsubj", null]  =
+->  1  1.00  ["Gen", "bis", "xcomp", null]  =
+->  1  1.00  ["Gen", null, "nsubj", null, "xcomp", null]  =
+x
+["Gen", "bis", "nsubj", null, "xcomp", null]	1	4
+ Too rare (<3), skip.
+
+#75
+<-  1  1.00  ["Gen", "bis", "nsubj", null, "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", "bis", "xcomp", null]  =
+->  1  1.00  ["Gen", null, "xcomp", "lekk"]  =
+x
+["Gen", "bis", "xcomp", "lekk"]	1	4
+ Too rare (<3), skip.
+
+#76
+<-  1  1.00  ["Gen", "bis", "nsubj", "sunna", "xcomp", null]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", "sunna", "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", null, "nsubj", "sunna"]  =
+->  1  1.00  ["Gen", null, "nsubj", null, "xcomp", null]  =
+->  1  1.00  ["nsubj", "sunna", "xcomp", null]  =
+x
+["Gen", null, "nsubj", "sunna", "xcomp", null]	1	4
+ Too rare (<3), skip.
+
+#77
+<-  1  1.00  ["Gen", "bis", "nsubj", null, "xcomp", "lekk"]  = !stay
+<-  1  1.00  ["Gen", null, "nsubj", "sunna", "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", null, "nsubj", null, "xcomp", null]  =
+->  1  1.00  ["Gen", null, "xcomp", "lekk"]  =
+->  2  2.00  ["nsubj", null, "xcomp", "lekk"]  ??
+x
+["Gen", null, "nsubj", null, "xcomp", "lekk"]	1	4
+ Too rare (<3), skip.
+
+#78
+x
+->  1  1.00  ["nsubj", "doom", "xcomp", null]  =
+->  1  1.00  ["nsubj", null, "xcomp", "ayib"]  =
+x
+["nsubj", "doom", "xcomp", "ayib"]	1	4
+ No out-edge, skip.
+
+#79
+x
+->  1  1.00  ["nsubj", "jàngoro", "xcomp", null]  =
+->  1  1.00  ["nsubj", null, "xcomp", "yéeg"]  =
+x
+["nsubj", "jàngoro", "xcomp", "yéeg"]	1	4
+ No out-edge, skip.
+
+#80
+x
+->  1  1.00  ["nsubj", "jeqiku", "xcomp", null]  =
+->  1  1.00  ["nsubj", null, "xcomp", "ami"]  =
+x
+["nsubj", "jeqiku", "xcomp", "ami"]	1	4
+ No out-edge, skip.
+
+#81
+x
+->  1  1.00  ["nsubj", "sibbiru", "xcomp", null]  =
+->  1  1.00  ["nsubj", null, "xcomp", "jéggi"]  =
+x
+["nsubj", "sibbiru", "xcomp", "jéggi"]	1	4
+ No out-edge, skip.
+
+#82
+<-  1  1.00  ["Gen", null, "nsubj", "sunna", "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["nsubj", "sunna", "xcomp", null]  =
+->  2  2.00  ["nsubj", null, "xcomp", "lekk"]  ??
+x
+["nsubj", "sunna", "xcomp", "lekk"]	1	4
+ Too rare (<3), skip.
+
+#83
+x
+->  1  1.00  ["nsubj", null, "obj", null, "obl=ci", null]  =
+->  1  1.00  ["nsubj", null, "obl=ci", "ndawal"]  =
+->  1  1.00  ["obj", null, "obl=ci", "ndawal"]  =
+x
+["nsubj", null, "obj", null, "obl=ci", "ndawal"]	1	4
+ No out-edge, skip.
+
+#84
+x
+->  1  1.00  ["nsubj", null, "xcomp", "fitnaal"]  =
+->  1  1.00  ["obj", null, "xcomp", "fitnaal"]  =
+->  5  5.00  ["nsubj", null, "obj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "obj", null, "xcomp", "fitnaal"]	1	4
+ No out-edge, skip.
+
+#85
+x
+->  1  1.00  ["nsubj", null, "xcomp", "sonal"]  =
+->  1  1.00  ["obj", null, "xcomp", "sonal"]  =
+->  5  5.00  ["nsubj", null, "obj", null, "xcomp", null]  ^ !jump
+x
+["nsubj", null, "obj", null, "xcomp", "sonal"]	1	4
+ No out-edge, skip.
+
+#86
+<-  1  1.00  ["Gen", "bis", "nsubj", "sunna", "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", "bis", "nsubj", "sunna"]  =
+->  1  1.00  ["Gen", "bis", "nsubj", null, "xcomp", null]  =
+->  1  1.00  ["Gen", null, "nsubj", "sunna", "xcomp", null]  =
+x
+["Gen", "bis", "nsubj", "sunna", "xcomp", null]	1	5
+ Too rare (<3), skip.
+
+#87
+<-  1  1.00  ["Gen", "bis", "nsubj", "sunna", "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", "bis", "nsubj", null, "xcomp", null]  =
+->  1  1.00  ["Gen", "bis", "xcomp", "lekk"]  =
+->  1  1.00  ["Gen", null, "nsubj", null, "xcomp", "lekk"]  =
+x
+["Gen", "bis", "nsubj", null, "xcomp", "lekk"]	1	5
+ Too rare (<3), skip.
+
+#88
+<-  1  1.00  ["Gen", "bis", "nsubj", "sunna", "xcomp", "lekk"]  = !stay
+x
+->  1  1.00  ["Gen", null, "nsubj", "sunna", "xcomp", null]  =
+->  1  1.00  ["Gen", null, "nsubj", null, "xcomp", "lekk"]  =
+->  1  1.00  ["nsubj", "sunna", "xcomp", "lekk"]  =
+x
+["Gen", null, "nsubj", "sunna", "xcomp", "lekk"]	1	5
+ Too rare (<3), skip.
+
+#89
+x
+->  1  1.00  ["Gen", "bis", "nsubj", "sunna", "xcomp", null]  =
+->  1  1.00  ["Gen", "bis", "nsubj", null, "xcomp", "lekk"]  =
+->  1  1.00  ["Gen", null, "nsubj", "sunna", "xcomp", "lekk"]  =
+x
+["Gen", "bis", "nsubj", "sunna", "xcomp", "lekk"]	1	6
+ No out-edge, skip.
+

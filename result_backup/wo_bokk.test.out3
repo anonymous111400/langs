@@ -1,0 +1,1462 @@
+#1
+<-  1  41.00  ["obl=ak", null]  ^
+<-  1  41.00  ["obl=ba", null]  ^
+<-  1  41.00  ["obl=ca", null]  ^
+<-  1  41.00  ["obl=ci=aw", null]  ^
+<-  1  41.00  ["obl=li-ko-dale", null]  ^
+<-  2  20.50  ["xcomp", null]  ^
+<-  3  13.67  ["obl", null]  ^
+<-  13  3.15  ["obj", null]  ??
+<-  25  1.64  ["obl=ci", null]  = !stay
+<-  41  1.00  ["nsubj", null]  = !stay
+x
+x
+[]	41	0
+ Processing.
+ A stay found, we follow.
+["nsubj", null]	41	1
+ A stay found, we follow.
+["nsubj", null, "obl=ci", null]	25	2
+ No stay (ratio=12.50 > 1.7), we stop.
+ No appropriate jump (no filler, 1.64 < 4), we stop.
+["nsubj", null, "obl=ci", null]	25	2	pVCC
+
+#2
+<-  1  41.00  ["nsubj", "bër"]  ^
+<-  1  41.00  ["nsubj", "fànn"]  ^
+<-  1  41.00  ["nsubj", "kaasa"]  ^
+<-  1  41.00  ["nsubj", "mbootaay"]  ^
+<-  1  41.00  ["nsubj", "waa"]  ^
+<-  1  41.00  ["nsubj", "waalo"]  ^
+<-  1  41.00  ["nsubj", null, "obl=ak", null]  ^
+<-  1  41.00  ["nsubj", null, "obl=ba", null]  ^
+<-  1  41.00  ["nsubj", null, "obl=ca", null]  ^
+<-  1  41.00  ["nsubj", null, "obl=ci=aw", null]  ^
+<-  1  41.00  ["nsubj", null, "obl=li-ko-dale", null]  ^
+<-  2  20.50  ["nsubj", null, "xcomp", null]  ^
+<-  3  13.67  ["nsubj", null, "obl", null]  ^
+<-  13  3.15  ["nsubj", null, "obj", null]  ??
+<-  25  1.64  ["nsubj", null, "obl=ci", null]  = !stay
+x
+->  41  1.00  []  =
+x
+["nsubj", null]	41	1
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obl=ci", null]	25	2
+ No stay (ratio=12.50 > 1.7), we stop.
+ No appropriate jump (no filler, 1.64 < 4), we stop.
+["nsubj", null, "obl=ci", null]	25	2	pVCC
+
+#3
+<-  1  25.00  ["obl=ba", null, "obl=ci", null]  ^
+<-  1  25.00  ["obl=ci", "àttekat"]  ^
+<-  1  25.00  ["obl=ci", "fànn"]  ^
+<-  1  25.00  ["obl=ci", "goornamaa"]  ^
+<-  1  25.00  ["obl=ci", "isipt"]  ^
+<-  1  25.00  ["obl=ci", "mbootaay"]  ^
+<-  1  25.00  ["obl=ci", "meen"]  ^
+<-  1  25.00  ["obl=ci", "ndaje"]  ^
+<-  1  25.00  ["obl=ci", "pexe"]  ^
+<-  1  25.00  ["obl=ci", "réew"]  ^
+<-  1  25.00  ["obl=ci", "sendikaa"]  ^
+<-  1  25.00  ["obl=ci", "solofrayn"]  ^
+<-  1  25.00  ["obl=ci", "teddnga"]  ^
+<-  1  25.00  ["obl=ci", "tiribinaal"]  ^
+<-  1  25.00  ["obl=ci", "wàll"]  ^
+<-  1  25.00  ["obl=ci", "xeet"]  ^
+<-  1  25.00  ["obl=ci", "xew-xew"]  ^
+<-  1  25.00  ["obl=ci", null, "obl=li-ko-dale", null]  ^
+<-  2  12.50  ["obj", null, "obl=ci", null]  ^
+<-  2  12.50  ["obl=ci", "mbooloo"]  ^
+<-  25  1.00  ["nsubj", null, "obl=ci", null]  = !stay
+x
+->  41  1.64  []  =
+x
+["obl=ci", null]	25	1
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obl=ci", null]	25	2
+ No stay (ratio=12.50 > 1.7), we stop.
+ No appropriate jump (no filler, 1.64 < 4), we stop.
+["nsubj", null, "obl=ci", null]	25	2	pVCC
+
+#4
+<-  1  13.00  ["obj", "liggéey"]  ^
+<-  1  13.00  ["obj", "xeet"]  ^
+<-  1  13.00  ["obj", "yaakaar"]  ^
+<-  1  13.00  ["obj", null, "obl=ak", null]  ^
+<-  2  6.50  ["obj", null, "obl=ci", null]  ^
+<-  2  6.50  ["obj", null, "xcomp", null]  ^
+<-  13  1.00  ["nsubj", null, "obj", null]  = !stay
+x
+->  41  3.15  []  ??
+x
+["obj", null]	13	1
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obj", null]	13	2
+ No stay (ratio=6.50 > 1.7), we stop.
+ No appropriate jump (no filler, 3.15 < 4), we stop.
+["nsubj", null, "obj", null]	13	2	pVCC
+
+#5
+<-  1  3.00  ["obl", "ca"]  ??
+<-  2  1.50  ["obl", "ci"]  = !stay
+<-  3  1.00  ["nsubj", null, "obl", null]  = !stay
+x
+->  41  13.67  []  ^ !jump
+x
+["obl", null]	3	1
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obl", null]	3	2
+ A stay found, we follow.
+["nsubj", null, "obl", "ci"]	2	3
+ No stay (ratio=0.00 > 1.7), we stop.
+ No appropriate jump (omitting last filler, 1.50 < 100000000), we stop.
+ Concrete sentence skeleton.
+
+#6
+<-  1  2.00  ["xcomp", "feg"]  ??
+<-  1  2.00  ["xcomp", "jënd"]  ??
+<-  2  1.00  ["nsubj", null, "xcomp", null]  = !stay
+<-  2  1.00  ["obj", null, "xcomp", null]  = !stay
+x
+->  41  20.50  []  ^ !jump
+x
+["xcomp", null]	2	1
+ Too rare (<3), skip.
+
+#7
+<-  1  1.00  ["nsubj", null, "obl=ak", null]  = !stay
+<-  1  1.00  ["obj", null, "obl=ak", null]  = !stay
+x
+->  41  41.00  []  ^ !jump
+x
+["obl=ak", null]	1	1
+ Too rare (<3), skip.
+
+#8
+<-  1  1.00  ["nsubj", null, "obl=ba", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi"]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=li-ko-dale", null]  = !stay
+x
+->  41  41.00  []  ^ !jump
+x
+["obl=ba", null]	1	1
+ Too rare (<3), skip.
+
+#9
+<-  1  1.00  ["nsubj", null, "obl=ca", null]  = !stay
+<-  1  1.00  ["obl=ca", "njiit"]  = !stay
+x
+->  41  41.00  []  ^ !jump
+x
+["obl=ca", null]	1	1
+ Too rare (<3), skip.
+
+#10
+<-  1  1.00  ["nsubj", null, "obl=ci=aw", null]  = !stay
+<-  1  1.00  ["obl=ci=aw", "yaram"]  = !stay
+x
+->  41  41.00  []  ^ !jump
+x
+["obl=ci=aw", null]	1	1
+ Too rare (<3), skip.
+
+#11
+<-  1  1.00  ["nsubj", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=li-ko-dale", "1994"]  = !stay
+x
+->  41  41.00  []  ^ !jump
+x
+["obl=li-ko-dale", null]	1	1
+ Too rare (<3), skip.
+
+#12
+<-  1  25.00  ["nsubj", "bër", "obl=ci", null]  ^
+<-  1  25.00  ["nsubj", "fànn", "obl=ci", null]  ^
+<-  1  25.00  ["nsubj", "kaasa", "obl=ci", null]  ^
+<-  1  25.00  ["nsubj", "waa", "obl=ci", null]  ^
+<-  1  25.00  ["nsubj", "waalo", "obl=ci", null]  ^
+<-  1  25.00  ["nsubj", null, "obl=ba", null, "obl=ci", null]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "àttekat"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "fànn"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "goornamaa"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "isipt"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "mbootaay"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "meen"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "ndaje"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "pexe"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "réew"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "sendikaa"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "solofrayn"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "teddnga"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "tiribinaal"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "wàll"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "xeet"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", "xew-xew"]  ^
+<-  1  25.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", null]  ^
+<-  2  12.50  ["nsubj", null, "obj", null, "obl=ci", null]  ^
+<-  2  12.50  ["nsubj", null, "obl=ci", "mbooloo"]  ^
+x
+->  25  1.00  ["obl=ci", null]  =
+->  41  1.64  ["nsubj", null]  =
+x
+["nsubj", null, "obl=ci", null]	25	2
+ Processing.
+ No stay (ratio=12.50 > 1.7), we stop.
+ No appropriate jump (no filler, 1.64 < 4), we stop.
+["nsubj", null, "obl=ci", null]	25	2	pVCC
+
+#13
+<-  1  13.00  ["nsubj", "mbootaay", "obj", null]  ^
+<-  1  13.00  ["nsubj", null, "obj", "liggéey"]  ^
+<-  1  13.00  ["nsubj", null, "obj", "xeet"]  ^
+<-  1  13.00  ["nsubj", null, "obj", "yaakaar"]  ^
+<-  1  13.00  ["nsubj", null, "obj", null, "obl=ak", null]  ^
+<-  2  6.50  ["nsubj", null, "obj", null, "obl=ci", null]  ^
+<-  2  6.50  ["nsubj", null, "obj", null, "xcomp", null]  ^
+x
+->  13  1.00  ["obj", null]  =
+->  41  3.15  ["nsubj", null]  ??
+x
+["nsubj", null, "obj", null]	13	2
+ Processing.
+ No stay (ratio=6.50 > 1.7), we stop.
+ No appropriate jump (no filler, 3.15 < 4), we stop.
+["nsubj", null, "obj", null]	13	2	pVCC
+
+#14
+<-  1  3.00  ["nsubj", null, "obl", "ca"]  ??
+<-  2  1.50  ["nsubj", null, "obl", "ci"]  = !stay
+x
+->  3  1.00  ["obl", null]  =
+->  41  13.67  ["nsubj", null]  ^ !jump
+x
+["nsubj", null, "obl", null]	3	2
+ Processing.
+ A stay found, we follow.
+["nsubj", null, "obl", "ci"]	2	3
+ No stay (ratio=0.00 > 1.7), we stop.
+ No appropriate jump (omitting last filler, 1.50 < 100000000), we stop.
+ Concrete sentence skeleton.
+
+#15
+<-  1  2.00  ["nsubj", null, "xcomp", "feg"]  ??
+<-  1  2.00  ["nsubj", null, "xcomp", "jënd"]  ??
+<-  2  1.00  ["nsubj", null, "obj", null, "xcomp", null]  = !stay
+x
+->  2  1.00  ["xcomp", null]  =
+->  41  20.50  ["nsubj", null]  ^ !jump
+x
+["nsubj", null, "xcomp", null]	2	2
+ Too rare (<3), skip.
+
+#16
+<-  1  2.00  ["obj", null, "obl=ci", "isipt"]  ??
+<-  2  1.00  ["nsubj", null, "obj", null, "obl=ci", null]  = !stay
+x
+->  13  6.50  ["obj", null]  ^ !jump
+->  25  12.50  ["obl=ci", null]  ^ !jump
+x
+["obj", null, "obl=ci", null]	2	2
+ Too rare (<3), skip.
+
+#17
+<-  1  2.00  ["obj", null, "xcomp", "feg"]  ??
+<-  1  2.00  ["obj", null, "xcomp", "jënd"]  ??
+<-  2  1.00  ["nsubj", null, "obj", null, "xcomp", null]  = !stay
+x
+->  2  1.00  ["xcomp", null]  =
+->  13  6.50  ["obj", null]  ^ !jump
+x
+["obj", null, "xcomp", null]	2	2
+ Too rare (<3), skip.
+
+#18
+<-  2  1.00  ["nsubj", null, "obl", "ci"]  = !stay
+x
+->  3  1.50  ["obl", null]  =
+x
+["obl", "ci"]	2	2
+ Too rare (<3), skip.
+
+#19
+<-  2  1.00  ["nsubj", null, "obl=ci", "mbooloo"]  = !stay
+x
+->  25  12.50  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "mbooloo"]	2	2
+ Too rare (<3), skip.
+
+#20
+<-  1  1.00  ["nsubj", "bër", "obl=ci", null]  = !stay
+x
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "bër"]	1	2
+ Too rare (<3), skip.
+
+#21
+<-  1  1.00  ["nsubj", "fànn", "obl=ci", null]  = !stay
+x
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "fànn"]	1	2
+ Too rare (<3), skip.
+
+#22
+<-  1  1.00  ["nsubj", "kaasa", "obl=ci", null]  = !stay
+x
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "kaasa"]	1	2
+ Too rare (<3), skip.
+
+#23
+<-  1  1.00  ["nsubj", "mbootaay", "obj", null]  = !stay
+x
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "mbootaay"]	1	2
+ Too rare (<3), skip.
+
+#24
+<-  1  1.00  ["nsubj", "waa", "obl=ci", null]  = !stay
+x
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "waa"]	1	2
+ Too rare (<3), skip.
+
+#25
+<-  1  1.00  ["nsubj", "waalo", "obl=ci", null]  = !stay
+x
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", "waalo"]	1	2
+ Too rare (<3), skip.
+
+#26
+<-  1  1.00  ["nsubj", null, "obj", null, "obl=ak", null]  = !stay
+x
+->  1  1.00  ["obl=ak", null]  =
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", null, "obl=ak", null]	1	2
+ Too rare (<3), skip.
+
+#27
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi"]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["obl=ba", null]  =
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", null, "obl=ba", null]	1	2
+ Too rare (<3), skip.
+
+#28
+<-  1  1.00  ["nsubj", null, "obl=ca", "njiit"]  = !stay
+x
+->  1  1.00  ["obl=ca", null]  =
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", null, "obl=ca", null]	1	2
+ Too rare (<3), skip.
+
+#29
+<-  1  1.00  ["nsubj", null, "obl=ci=aw", "yaram"]  = !stay
+x
+->  1  1.00  ["obl=ci=aw", null]  =
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", null, "obl=ci=aw", null]	1	2
+ Too rare (<3), skip.
+
+#30
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=li-ko-dale", null]  =
+->  41  41.00  ["nsubj", null]  ^ !jump
+x
+["nsubj", null, "obl=li-ko-dale", null]	1	2
+ Too rare (<3), skip.
+
+#31
+<-  1  1.00  ["nsubj", null, "obj", "liggéey"]  = !stay
+x
+->  13  13.00  ["obj", null]  ^ !jump
+x
+["obj", "liggéey"]	1	2
+ Too rare (<3), skip.
+
+#32
+<-  1  1.00  ["nsubj", null, "obj", "xeet"]  = !stay
+x
+->  13  13.00  ["obj", null]  ^ !jump
+x
+["obj", "xeet"]	1	2
+ Too rare (<3), skip.
+
+#33
+<-  1  1.00  ["nsubj", null, "obj", "yaakaar"]  = !stay
+x
+->  13  13.00  ["obj", null]  ^ !jump
+x
+["obj", "yaakaar"]	1	2
+ Too rare (<3), skip.
+
+#34
+<-  1  1.00  ["nsubj", null, "obj", null, "obl=ak", null]  = !stay
+x
+->  1  1.00  ["obl=ak", null]  =
+->  13  13.00  ["obj", null]  ^ !jump
+x
+["obj", null, "obl=ak", null]	1	2
+ Too rare (<3), skip.
+
+#35
+<-  1  1.00  ["nsubj", null, "obl", "ca"]  = !stay
+x
+->  3  3.00  ["obl", null]  ??
+x
+["obl", "ca"]	1	2
+ Too rare (<3), skip.
+
+#36
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi"]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["obl=ba", null]  =
+x
+["obl=ba", "léegi"]	1	2
+ Too rare (<3), skip.
+
+#37
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["obl=ba", null]  =
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ba", null, "obl=ci", null]	1	2
+ Too rare (<3), skip.
+
+#38
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", null]  =
+->  1  1.00  ["obl=li-ko-dale", null]  =
+x
+["obl=ba", null, "obl=li-ko-dale", null]	1	2
+ Too rare (<3), skip.
+
+#39
+<-  1  1.00  ["nsubj", null, "obl=ca", "njiit"]  = !stay
+x
+->  1  1.00  ["obl=ca", null]  =
+x
+["obl=ca", "njiit"]	1	2
+ Too rare (<3), skip.
+
+#40
+<-  1  1.00  ["nsubj", null, "obl=ci", "àttekat"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "àttekat"]	1	2
+ Too rare (<3), skip.
+
+#41
+<-  1  1.00  ["nsubj", null, "obl=ci", "fànn"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "fànn"]	1	2
+ Too rare (<3), skip.
+
+#42
+<-  1  1.00  ["nsubj", null, "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "goornamaa"]	1	2
+ Too rare (<3), skip.
+
+#43
+<-  1  1.00  ["nsubj", null, "obl=ci", "isipt"]  = !stay
+<-  1  1.00  ["obj", null, "obl=ci", "isipt"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "isipt"]	1	2
+ Too rare (<3), skip.
+
+#44
+<-  1  1.00  ["nsubj", null, "obl=ci", "mbootaay"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "mbootaay"]	1	2
+ Too rare (<3), skip.
+
+#45
+<-  1  1.00  ["nsubj", null, "obl=ci", "meen"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "meen"]	1	2
+ Too rare (<3), skip.
+
+#46
+<-  1  1.00  ["nsubj", null, "obl=ci", "ndaje"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "ndaje"]	1	2
+ Too rare (<3), skip.
+
+#47
+<-  1  1.00  ["nsubj", null, "obl=ci", "pexe"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "pexe"]	1	2
+ Too rare (<3), skip.
+
+#48
+<-  1  1.00  ["nsubj", null, "obl=ci", "réew"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "réew"]	1	2
+ Too rare (<3), skip.
+
+#49
+<-  1  1.00  ["nsubj", null, "obl=ci", "sendikaa"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "sendikaa"]	1	2
+ Too rare (<3), skip.
+
+#50
+<-  1  1.00  ["nsubj", null, "obl=ci", "solofrayn"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "solofrayn"]	1	2
+ Too rare (<3), skip.
+
+#51
+<-  1  1.00  ["nsubj", null, "obl=ci", "teddnga"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "teddnga"]	1	2
+ Too rare (<3), skip.
+
+#52
+<-  1  1.00  ["nsubj", null, "obl=ci", "tiribinaal"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "tiribinaal"]	1	2
+ Too rare (<3), skip.
+
+#53
+<-  1  1.00  ["nsubj", null, "obl=ci", "wàll"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "wàll"]	1	2
+ Too rare (<3), skip.
+
+#54
+<-  1  1.00  ["nsubj", null, "obl=ci", "xeet"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "xeet"]	1	2
+ Too rare (<3), skip.
+
+#55
+<-  1  1.00  ["nsubj", null, "obl=ci", "xew-xew"]  = !stay
+x
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", "xew-xew"]	1	2
+ Too rare (<3), skip.
+
+#56
+<-  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=li-ko-dale", null]  =
+->  25  25.00  ["obl=ci", null]  ^ !jump
+x
+["obl=ci", null, "obl=li-ko-dale", null]	1	2
+ Too rare (<3), skip.
+
+#57
+<-  1  1.00  ["nsubj", null, "obl=ci=aw", "yaram"]  = !stay
+x
+->  1  1.00  ["obl=ci=aw", null]  =
+x
+["obl=ci=aw", "yaram"]	1	2
+ Too rare (<3), skip.
+
+#58
+<-  1  1.00  ["nsubj", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=li-ko-dale", null]  =
+x
+["obl=li-ko-dale", "1994"]	1	2
+ Too rare (<3), skip.
+
+#59
+<-  1  1.00  ["nsubj", null, "xcomp", "feg"]  = !stay
+<-  1  1.00  ["obj", null, "xcomp", "feg"]  = !stay
+x
+->  2  2.00  ["xcomp", null]  ??
+x
+["xcomp", "feg"]	1	2
+ Too rare (<3), skip.
+
+#60
+<-  1  1.00  ["nsubj", null, "xcomp", "jënd"]  = !stay
+<-  1  1.00  ["obj", null, "xcomp", "jënd"]  = !stay
+x
+->  2  2.00  ["xcomp", null]  ??
+x
+["xcomp", "jënd"]	1	2
+ Too rare (<3), skip.
+
+#61
+<-  1  2.00  ["nsubj", null, "obj", null, "obl=ci", "isipt"]  ??
+x
+->  2  1.00  ["obj", null, "obl=ci", null]  =
+->  13  6.50  ["nsubj", null, "obj", null]  ^ !jump
+->  25  12.50  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obj", null, "obl=ci", null]	2	3
+ Too rare (<3), skip.
+
+#62
+<-  1  2.00  ["nsubj", null, "obj", null, "xcomp", "feg"]  ??
+<-  1  2.00  ["nsubj", null, "obj", null, "xcomp", "jënd"]  ??
+x
+->  2  1.00  ["nsubj", null, "xcomp", null]  =
+->  2  1.00  ["obj", null, "xcomp", null]  =
+->  13  6.50  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", null, "obj", null, "xcomp", null]	2	3
+ Too rare (<3), skip.
+
+#63
+x
+->  2  1.00  ["obl", "ci"]  =
+->  3  1.50  ["nsubj", null, "obl", null]  =
+x
+["nsubj", null, "obl", "ci"]	2	3
+ No out-edge, skip.
+
+#64
+x
+->  2  1.00  ["obl=ci", "mbooloo"]  =
+->  25  12.50  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "mbooloo"]	2	3
+ No out-edge, skip.
+
+#65
+<-  1  1.00  ["nsubj", "bër", "obl=ci", "teddnga"]  = !stay
+x
+->  1  1.00  ["nsubj", "bër"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", "bër", "obl=ci", null]	1	3
+ Too rare (<3), skip.
+
+#66
+<-  1  1.00  ["nsubj", "fànn", "obl=ci", "fànn"]  = !stay
+x
+->  1  1.00  ["nsubj", "fànn"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", "fànn", "obl=ci", null]	1	3
+ Too rare (<3), skip.
+
+#67
+x
+->  1  1.00  ["nsubj", "kaasa"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", "kaasa", "obl=ci", null]	1	3
+ No out-edge, skip.
+
+#68
+x
+->  1  1.00  ["nsubj", "mbootaay"]  =
+->  13  13.00  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", "mbootaay", "obj", null]	1	3
+ No out-edge, skip.
+
+#69
+<-  1  1.00  ["nsubj", "waa", "obl=ci", "réew"]  = !stay
+x
+->  1  1.00  ["nsubj", "waa"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", "waa", "obl=ci", null]	1	3
+ Too rare (<3), skip.
+
+#70
+x
+->  1  1.00  ["nsubj", "waalo"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", "waalo", "obl=ci", null]	1	3
+ No out-edge, skip.
+
+#71
+x
+->  1  1.00  ["obj", "liggéey"]  =
+->  13  13.00  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", null, "obj", "liggéey"]	1	3
+ No out-edge, skip.
+
+#72
+x
+->  1  1.00  ["obj", "xeet"]  =
+->  13  13.00  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", null, "obj", "xeet"]	1	3
+ No out-edge, skip.
+
+#73
+x
+->  1  1.00  ["obj", "yaakaar"]  =
+->  13  13.00  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", null, "obj", "yaakaar"]	1	3
+ No out-edge, skip.
+
+#74
+x
+->  1  1.00  ["nsubj", null, "obl=ak", null]  =
+->  1  1.00  ["obj", null, "obl=ak", null]  =
+->  13  13.00  ["nsubj", null, "obj", null]  ^ !jump
+x
+["nsubj", null, "obj", null, "obl=ak", null]	1	3
+ No out-edge, skip.
+
+#75
+x
+->  1  1.00  ["obl", "ca"]  =
+->  3  3.00  ["nsubj", null, "obl", null]  ??
+x
+["nsubj", null, "obl", "ca"]	1	3
+ No out-edge, skip.
+
+#76
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", null]  =
+->  1  1.00  ["obl=ba", "léegi"]  =
+x
+["nsubj", null, "obl=ba", "léegi"]	1	3
+ Too rare (<3), skip.
+
+#77
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", null]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", null]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ba", null, "obl=ci", null]	1	3
+ Too rare (<3), skip.
+
+#78
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", null]  =
+->  1  1.00  ["nsubj", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", null, "obl=li-ko-dale", null]  =
+x
+["nsubj", null, "obl=ba", null, "obl=li-ko-dale", null]	1	3
+ Too rare (<3), skip.
+
+#79
+x
+->  1  1.00  ["nsubj", null, "obl=ca", null]  =
+->  1  1.00  ["obl=ca", "njiit"]  =
+x
+["nsubj", null, "obl=ca", "njiit"]	1	3
+ No out-edge, skip.
+
+#80
+x
+->  1  1.00  ["obl=ci", "àttekat"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "àttekat"]	1	3
+ No out-edge, skip.
+
+#81
+<-  1  1.00  ["nsubj", "fànn", "obl=ci", "fànn"]  = !stay
+x
+->  1  1.00  ["obl=ci", "fànn"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "fànn"]	1	3
+ Too rare (<3), skip.
+
+#82
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["obl=ci", "goornamaa"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "goornamaa"]	1	3
+ Too rare (<3), skip.
+
+#83
+<-  1  1.00  ["nsubj", null, "obj", null, "obl=ci", "isipt"]  = !stay
+x
+->  1  1.00  ["obl=ci", "isipt"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "isipt"]	1	3
+ Too rare (<3), skip.
+
+#84
+x
+->  1  1.00  ["obl=ci", "mbootaay"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "mbootaay"]	1	3
+ No out-edge, skip.
+
+#85
+x
+->  1  1.00  ["obl=ci", "meen"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "meen"]	1	3
+ No out-edge, skip.
+
+#86
+x
+->  1  1.00  ["obl=ci", "ndaje"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "ndaje"]	1	3
+ No out-edge, skip.
+
+#87
+x
+->  1  1.00  ["obl=ci", "pexe"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "pexe"]	1	3
+ No out-edge, skip.
+
+#88
+<-  1  1.00  ["nsubj", "waa", "obl=ci", "réew"]  = !stay
+x
+->  1  1.00  ["obl=ci", "réew"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "réew"]	1	3
+ Too rare (<3), skip.
+
+#89
+x
+->  1  1.00  ["obl=ci", "sendikaa"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "sendikaa"]	1	3
+ No out-edge, skip.
+
+#90
+x
+->  1  1.00  ["obl=ci", "solofrayn"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "solofrayn"]	1	3
+ No out-edge, skip.
+
+#91
+<-  1  1.00  ["nsubj", "bër", "obl=ci", "teddnga"]  = !stay
+x
+->  1  1.00  ["obl=ci", "teddnga"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "teddnga"]	1	3
+ Too rare (<3), skip.
+
+#92
+x
+->  1  1.00  ["obl=ci", "tiribinaal"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "tiribinaal"]	1	3
+ No out-edge, skip.
+
+#93
+x
+->  1  1.00  ["obl=ci", "wàll"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "wàll"]	1	3
+ No out-edge, skip.
+
+#94
+x
+->  1  1.00  ["obl=ci", "xeet"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "xeet"]	1	3
+ No out-edge, skip.
+
+#95
+x
+->  1  1.00  ["obl=ci", "xew-xew"]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", "xew-xew"]	1	3
+ No out-edge, skip.
+
+#96
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ci", null, "obl=li-ko-dale", null]  =
+->  25  25.00  ["nsubj", null, "obl=ci", null]  ^ !jump
+x
+["nsubj", null, "obl=ci", null, "obl=li-ko-dale", null]	1	3
+ Too rare (<3), skip.
+
+#97
+x
+->  1  1.00  ["nsubj", null, "obl=ci=aw", null]  =
+->  1  1.00  ["obl=ci=aw", "yaram"]  =
+x
+["nsubj", null, "obl=ci=aw", "yaram"]	1	3
+ No out-edge, skip.
+
+#98
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=li-ko-dale", "1994"]  =
+x
+["nsubj", null, "obl=li-ko-dale", "1994"]	1	3
+ Too rare (<3), skip.
+
+#99
+<-  1  1.00  ["nsubj", null, "obj", null, "xcomp", "feg"]  = !stay
+x
+->  1  1.00  ["xcomp", "feg"]  =
+->  2  2.00  ["nsubj", null, "xcomp", null]  ??
+x
+["nsubj", null, "xcomp", "feg"]	1	3
+ Too rare (<3), skip.
+
+#100
+<-  1  1.00  ["nsubj", null, "obj", null, "xcomp", "jënd"]  = !stay
+x
+->  1  1.00  ["xcomp", "jënd"]  =
+->  2  2.00  ["nsubj", null, "xcomp", null]  ??
+x
+["nsubj", null, "xcomp", "jënd"]	1	3
+ Too rare (<3), skip.
+
+#101
+<-  1  1.00  ["nsubj", null, "obj", null, "obl=ci", "isipt"]  = !stay
+x
+->  1  1.00  ["obl=ci", "isipt"]  =
+->  2  2.00  ["obj", null, "obl=ci", null]  ??
+x
+["obj", null, "obl=ci", "isipt"]	1	3
+ Too rare (<3), skip.
+
+#102
+<-  1  1.00  ["nsubj", null, "obj", null, "xcomp", "feg"]  = !stay
+x
+->  1  1.00  ["xcomp", "feg"]  =
+->  2  2.00  ["obj", null, "xcomp", null]  ??
+x
+["obj", null, "xcomp", "feg"]	1	3
+ Too rare (<3), skip.
+
+#103
+<-  1  1.00  ["nsubj", null, "obj", null, "xcomp", "jënd"]  = !stay
+x
+->  1  1.00  ["xcomp", "jënd"]  =
+->  2  2.00  ["obj", null, "xcomp", null]  ??
+x
+["obj", null, "xcomp", "jënd"]	1	3
+ Too rare (<3), skip.
+
+#104
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["obl=ba", "léegi"]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", null]  =
+x
+["obl=ba", "léegi", "obl=ci", null]	1	3
+ Too rare (<3), skip.
+
+#105
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", "léegi"]  =
+->  1  1.00  ["obl=ba", null, "obl=li-ko-dale", null]  =
+x
+["obl=ba", "léegi", "obl=li-ko-dale", null]	1	3
+ Too rare (<3), skip.
+
+#106
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["obl=ba", null, "obl=ci", null]  =
+->  1  1.00  ["obl=ci", "goornamaa"]  =
+x
+["obl=ba", null, "obl=ci", "goornamaa"]	1	3
+ Too rare (<3), skip.
+
+#107
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", null, "obl=ci", null]  =
+->  1  1.00  ["obl=ba", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ci", null, "obl=li-ko-dale", null]  =
+x
+["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]	1	3
+ Too rare (<3), skip.
+
+#108
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=li-ko-dale", "1994"]  =
+x
+["obl=ba", null, "obl=li-ko-dale", "1994"]	1	3
+ Too rare (<3), skip.
+
+#109
+<-  1  1.00  ["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ci", "goornamaa"]  =
+->  1  1.00  ["obl=ci", null, "obl=li-ko-dale", null]  =
+x
+["obl=ci", "goornamaa", "obl=li-ko-dale", null]	1	3
+ Too rare (<3), skip.
+
+#110
+<-  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=li-ko-dale", "1994"]  =
+x
+["obl=ci", null, "obl=li-ko-dale", "1994"]	1	3
+ Too rare (<3), skip.
+
+#111
+x
+->  1  1.00  ["nsubj", "bër", "obl=ci", null]  =
+->  1  1.00  ["nsubj", null, "obl=ci", "teddnga"]  =
+x
+["nsubj", "bër", "obl=ci", "teddnga"]	1	4
+ No out-edge, skip.
+
+#112
+x
+->  1  1.00  ["nsubj", "fànn", "obl=ci", null]  =
+->  1  1.00  ["nsubj", null, "obl=ci", "fànn"]  =
+x
+["nsubj", "fànn", "obl=ci", "fànn"]	1	4
+ No out-edge, skip.
+
+#113
+x
+->  1  1.00  ["nsubj", "waa", "obl=ci", null]  =
+->  1  1.00  ["nsubj", null, "obl=ci", "réew"]  =
+x
+["nsubj", "waa", "obl=ci", "réew"]	1	4
+ No out-edge, skip.
+
+#114
+x
+->  1  1.00  ["nsubj", null, "obl=ci", "isipt"]  =
+->  1  1.00  ["obj", null, "obl=ci", "isipt"]  =
+->  2  2.00  ["nsubj", null, "obj", null, "obl=ci", null]  ??
+x
+["nsubj", null, "obj", null, "obl=ci", "isipt"]	1	4
+ No out-edge, skip.
+
+#115
+x
+->  1  1.00  ["nsubj", null, "xcomp", "feg"]  =
+->  1  1.00  ["obj", null, "xcomp", "feg"]  =
+->  2  2.00  ["nsubj", null, "obj", null, "xcomp", null]  ??
+x
+["nsubj", null, "obj", null, "xcomp", "feg"]	1	4
+ No out-edge, skip.
+
+#116
+x
+->  1  1.00  ["nsubj", null, "xcomp", "jënd"]  =
+->  1  1.00  ["obj", null, "xcomp", "jënd"]  =
+->  2  2.00  ["nsubj", null, "obj", null, "xcomp", null]  ??
+x
+["nsubj", null, "obj", null, "xcomp", "jënd"]	1	4
+ No out-edge, skip.
+
+#117
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi"]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", null]  =
+x
+["nsubj", null, "obl=ba", "léegi", "obl=ci", null]	1	4
+ Too rare (<3), skip.
+
+#118
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi"]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=li-ko-dale", null]  =
+x
+["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", null]	1	4
+ Too rare (<3), skip.
+
+#119
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null]  =
+->  1  1.00  ["nsubj", null, "obl=ci", "goornamaa"]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa"]  =
+x
+["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa"]	1	4
+ Too rare (<3), skip.
+
+#120
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+x
+["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]	1	4
+ Too rare (<3), skip.
+
+#121
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ba", null, "obl=li-ko-dale", "1994"]  =
+x
+["nsubj", null, "obl=ba", null, "obl=li-ko-dale", "1994"]	1	4
+ Too rare (<3), skip.
+
+#122
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ci", "goornamaa"]  =
+->  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+x
+["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]	1	4
+ Too rare (<3), skip.
+
+#123
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ci", null, "obl=li-ko-dale", "1994"]  =
+x
+["nsubj", null, "obl=ci", null, "obl=li-ko-dale", "1994"]	1	4
+ Too rare (<3), skip.
+
+#124
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa"]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", null]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa"]  =
+x
+["obl=ba", "léegi", "obl=ci", "goornamaa"]	1	4
+ Too rare (<3), skip.
+
+#125
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", null]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+x
+["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]	1	4
+ Too rare (<3), skip.
+
+#126
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", "léegi", "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", null, "obl=li-ko-dale", "1994"]  =
+x
+["obl=ba", "léegi", "obl=li-ko-dale", "1994"]	1	4
+ Too rare (<3), skip.
+
+#127
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa"]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+x
+["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]	1	4
+ Too rare (<3), skip.
+
+#128
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ci", null, "obl=li-ko-dale", "1994"]  =
+x
+["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]	1	4
+ Too rare (<3), skip.
+
+#129
+<-  1  1.00  ["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ci", null, "obl=li-ko-dale", "1994"]  =
+x
+["obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]	1	4
+ Too rare (<3), skip.
+
+#130
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa"]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa"]  =
+x
+["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa"]	1	5
+ Too rare (<3), skip.
+
+#131
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  =
+x
+["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]	1	5
+ Too rare (<3), skip.
+
+#132
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=li-ko-dale", "1994"]  =
+x
+["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", "1994"]	1	5
+ Too rare (<3), skip.
+
+#133
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa"]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+x
+["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]	1	5
+ Too rare (<3), skip.
+
+#134
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+x
+["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]	1	5
+ Too rare (<3), skip.
+
+#135
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  =
+x
+["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]	1	5
+ Too rare (<3), skip.
+
+#136
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa"]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+x
+["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]	1	5
+ Too rare (<3), skip.
+
+#137
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+x
+["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]	1	5
+ Too rare (<3), skip.
+
+#138
+<-  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+<-  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  =
+x
+["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]	1	5
+ Too rare (<3), skip.
+
+#139
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa"]  =
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+x
+["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]	1	6
+ Too rare (<3), skip.
+
+#140
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+x
+["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]	1	6
+ Too rare (<3), skip.
+
+#141
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["nsubj", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  =
+x
+["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]	1	6
+ Too rare (<3), skip.
+
+#142
+<-  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  = !stay
+x
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  =
+x
+["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]	1	6
+ Too rare (<3), skip.
+
+#143
+x
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", null]  =
+->  1  1.00  ["nsubj", null, "obl=ba", "léegi", "obl=ci", null, "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["nsubj", null, "obl=ba", null, "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  =
+->  1  1.00  ["obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]  =
+x
+["nsubj", null, "obl=ba", "léegi", "obl=ci", "goornamaa", "obl=li-ko-dale", "1994"]	1	7
+ No out-edge, skip.
+
