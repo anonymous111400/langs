@@ -29,8 +29,8 @@ jands:
 	@echo "3. Run jump and stay method..."
 	@echo
 	mkdir -p result
-	rm -f result/*out3*
-	for V in `ls json/*.test.json | sed "s/.*\///;s/\.test\.json//"`; do echo "--- $$V" ; ln json/$$V.test.json . ; make -f Makefile.jands VERB=$$V test ; rm -f $$V.test.json ; mv $$V.test.out3* result ; done > jands.out 2> jands.err
+	rm -f result/$(LANG)_*out3*
+	for V in `ls json/$(LANG)_*.test.json | sed "s/.*\///;s/\.test\.json//"`; do echo "--- $$V" ; ln json/$$V.test.json . ; make -f Makefile.jands VERB=$$V test ; rm -f $$V.test.json ; mv $$V.test.out3* result ; done > jands.out 2> jands.err
 
 jands_diff:
 	diffrvi result$(ORIG) result
@@ -52,7 +52,7 @@ convert2json:
 	@echo "2. Convert to JSON..."
 	@echo
 	mkdir -p json
-	rm -f json/*.json json/*.verbs
+	rm -f json/$(LANG)_*.json json/$(LANG)_*.verbs
 	for i in mazsdb/$(LANG) ; do echo "--- $$i" ; ./convert2json.sh $$i ; done
 
 convert2json_diff:
@@ -75,7 +75,7 @@ process_conll:
 	@echo "1. Process CoNLL..."
 	@echo
 	mkdir -p mazsdb
-	rm -f mazsdb/*
+	rm -f mazsdb/$(LANG)*
 	for i in input/$(LANG) ; do echo "--- $$i" ; ./process_conll.sh $$i ; done
 
 process_conll_diff:
