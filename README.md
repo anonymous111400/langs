@@ -34,8 +34,8 @@ make
 “jump and stay” implementation `impl.py` on them.
 
 `impl.py` and `Makefile.jands` are taken from the
-[“jump and stay” method](https://github.com/sassbalint/double-cube-jump-and-stay) repo (commit f3ca1ec):
-sassbalint/double-cube-jump-and-stay@f3ca1ec
+“jump and stay” method repo (commit f3ca1ec):
+https://github.com/sassbalint/double-cube-jump-and-stay/commit/f3ca1ec
 
 ## License
 
