@@ -17,7 +17,11 @@ full_new_orig: process_conll_new_orig convert2json_new_orig jands_new_orig
 # -----
 
 result_pVCC_diff:
-	for i in result/*pVCC ; do diff $$i result_backup/$$(basename $$i) ; done
+	cat result_backup/*.pVCC | sort > old
+	cat result/*.pVCC | sort > new
+	diff old new
+	rm -f old new
+	#for i in result/*pVCC ; do echo $$i ; diffx $$i result_backup/$$(basename $$i) sort ; done
 
 # -----
 
